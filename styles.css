@@ -1,0 +1,197 @@
+
+#principal {
+    width: 100%;
+    margin: auto;
+
+}
+
+body {
+    background-color: #96D1CE;
+    font-family: "Roboto", sans-serif;
+}
+
+#cabecera {
+    width: 100%;
+    height: 50%;
+    border-bottom: 1px solid rgb(124, 124, 124);
+    float: left;
+}
+
+#cabecera .logo {
+    float: left;
+    margin-top: 50px;
+}
+
+#cabecera .title {
+    margin-top: 0px;
+    margin-left: 160px;
+}
+
+#cabecera #redes {
+    float: right;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+.redes1, .redes2, .redes3 {
+    display: inline;
+    margin-left: 60px;
+    float: right;
+    cursor: pointer;
+}
+
+.logi{
+    display: inline;
+    margin-left: 90px;
+    margin-right: 40px;
+    float: right;
+    cursor: pointer;
+}
+
+section#main {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+#main .banner {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    
+}
+
+#contenido img {
+    border-radius: 50%;
+    float: left;
+    margin-top: -110px;
+    margin-left: 200px;
+}
+section#profile {
+    height: auto;
+    float: left;
+}
+
+.fullName h2.editableName {
+    font-weight: bold;
+    color: #000;
+    float: left;
+
+}
+
+.editableName {
+    margin-left: 190px;
+    font-size: 40px;
+}
+
+.info .editableInfo {
+    font-weight: bold;
+    margin-left: 140px;
+    font-size: 40px;
+}
+
+#toda-info .pfo {
+    float: right;
+    text-align: center;
+    margin-right: 60px;
+}
+
+.infoProf {
+    font-size: 20px;
+    color: crimson;
+    text-align: center;
+    padding-bottom: 0px;
+    border-bottom: #000 1px solid;
+}
+
+.descriptions {
+    font-size: 18px;
+    color: crimson;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+/* 
+@media screen and (max-width: 767px) {
+    #cabecera .title {
+        margin-left: 160px;
+    }
+    #cabecera #redes {
+        margin-right: 10px;
+        align-items: center;
+        margin-top: 70px;
+    }
+    .redes1, .redes2, .redes3 {
+        margin-left: 20px;
+    }
+    .logi{
+        margin-left: 40px;
+    }
+    #contenido img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        float: left;
+        margin-top: -40px;
+        margin-left: 75px;
+    }
+    #dates .datos, .name {
+        float: left;
+        margin-left: 30px;
+        font-size: 20px;
+        border-bottom: none;
+    }
+    #dates.datos, .name1 {
+        font-size: 20px;
+        margin-left: 6px;
+        margin-top: 0;
+    }
+}
+    
+
+
+@media screen and (max-width: 425px) {
+    #cabecera .title {
+        margin-left: 0px;
+        border-bottom: 1px solid rgb(124, 124, 124);
+    }
+    #cabecera #redes {
+        margin-right: 50px;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .redes1, .redes2, .redes3 {
+        margin-left: 20px;
+    }
+    .logi{
+        margin-left: 20px;
+    }
+    #contenido img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        float: left;
+        margin-top: -30px;
+        margin-left: 35px;
+    }
+    #dates .datos, .name {
+        float: left;
+        margin-left: 4px;
+        font-size: 15px;
+    }
+    #dates.datos, .name1 {
+        font-size: 15px;
+        margin-left: 0px;
+        
+    }
+}
+     */
+
+
+
+
