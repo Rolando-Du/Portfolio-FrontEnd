@@ -1,0 +1,58 @@
+nav.container-fluid {
+    width: 100%;
+    align-items: center;
+}
+
+.logo {
+    width: 180px;
+    height: auto;
+}
+
+.icons-redes {
+    list-style: none;
+    display: flex;
+}
+
+.conatiner-body {
+    background: rgb(150, 149, 149);
+}
+
+.banner {
+    position: relative;
+}
+
+.foto {
+    display: flex;
+    position: absolute;
+    margin-top: -70px;
+    padding-left: 25px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-foto {
+    width: 60%;
+    border: 1px solid #000;
+    border-radius: 50%;
+    box-shadow: rgb(4, 4, 5) 0px 20px 30px -10px;
+}
+
+@media (max-width: 600px) {
+    .logo {
+        width: 100px;
+        height: auto;
+        transition: 1s;
+    }
+
+    .foto {
+        margin-top: -50px;
+        transition: 1s;  
+    }
+
+    .img-foto {
+        width: 40%;
+    }
+}
